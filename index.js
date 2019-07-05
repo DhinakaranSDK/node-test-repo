@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/new', (req, res) => {
-  res.send('New page\n');
+  res.send('New page');
 });
 
 app.listen(PORT, HOST);
